@@ -19,7 +19,6 @@ function fakePromise() {
             }
         }, 3000);
     });
-
     return p;
 }
 

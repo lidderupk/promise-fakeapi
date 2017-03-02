@@ -6,10 +6,9 @@ logger.debug('start program');
 
 logger.debug('call api');
 
-api().then(function(data){
+api().then(function(data) {
     logger.debug('promise resolved');
-})
-.catch(function(err){
+}).catch(function(err) {
     logger.error(err);
 });
 
